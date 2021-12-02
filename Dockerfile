@@ -7,7 +7,7 @@ RUN wget https://www.yourkit.com/download/${DIST}
 
 RUN unzip ${DIST}
 
-VOLUME ["/yjp-license-server/licenses"]
+VOLUME ["/yourkit-license-server/licenses"]
 
-CMD cd /yjp-license-server/bin && ./startup.sh
+CMD cd /yourkit-license-server/bin && ./startup.sh
 
